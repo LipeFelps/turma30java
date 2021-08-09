@@ -1,10 +1,12 @@
-package Lista1;
+package Lista1 ;
 
-import  java.util.Scanner ;
+import java.util.Scanner;
 
 
-public class Lista1Exer2 {
+
+public class exercicio2 {
 	public static void main(String[] args) {
+		
 		int anos;
 		int meses;
 		int dias;
@@ -23,4 +25,4 @@ public class Lista1Exer2 {
 		leia.close();
 	}
 }
-
+	
