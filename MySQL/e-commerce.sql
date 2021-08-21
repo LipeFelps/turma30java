@@ -26,4 +26,4 @@ CREATE TABLE `tb_usuario` (
 	PRIMARY KEY (`id_usuario`)
 );
 
-ALTER TABLE `tb_produto` ADD CONSTRAINT `tb_produto_fk0` FOREIGN KEY (`id_categoria`) REFERENCES `tb_categoria`(`id_categoria`);tb_marcasPRIMARYtb_marcasidtb_produtosmarca_idtb_produtos
+ALTER TABLE `tb_produto` ADD CONSTRAINT `tb_produto_fk0` FOREIGN KEY (`id_categoria`) REFERENCES `tb_categoria`(`id_categoritb_marcasa`);tb_marcasPRIMARYtb_marcasidtb_produtosmarca_idtb_produtos
