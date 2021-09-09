@@ -16,7 +16,7 @@ import com.sun.istack.NotNull;
 
 @Entity
 @Table(name = "postagem")
-public class Post {
+public class Postagem {
 
 	@Id	
 	@GeneratedValue(strategy = GenerationType.IDENTITY)

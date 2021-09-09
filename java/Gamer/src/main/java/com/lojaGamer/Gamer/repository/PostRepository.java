@@ -6,10 +6,10 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import org.springframework.stereotype.Repository;
 
-import com.lojaGamer.Gamer.model.Post;
+import com.lojaGamer.Gamer.model.Postagem;
 
 
 @Repository
-public interface PostRepository extends JpaRepository<Post, Long> {	
-	public List<Post> findAllByTituloContainingIgnoreCase (String titulo); 
+public interface PostRepository extends JpaRepository<Postagem, Long> {	
+	public List<Postagem> findAllByTituloContainingIgnoreCase (String titulo); 
 }
